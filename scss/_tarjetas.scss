@@ -24,3 +24,14 @@
     background-color: $blanco;
     // ...
 }
+
+.tarjeta {
+    width: 30%; 
+    @include efecto-elevacion;
+
+   
+    @include dispositivo($celular) {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

@@ -31,3 +31,13 @@ header {
         }
     }
 }
+header nav ul {
+    display: flex;
+    justify-content: center;
+
+    @include dispositivo($tablet) {
+        flex-direction: column; // Se apilan
+        align-items: center;
+        gap: 10px;
+    }
+}
