@@ -1,16 +1,16 @@
 header {
-    background-color: $blanco; // Usamos la variable que ya creaste
+    background-color: $blanco; 
     padding: 15px;
-    border-bottom: 2px solid $negro-puro; // O "black" si no hiciste la variable
+    border-bottom: 2px solid $negro-puro; 
 
-    // Estilos para el ID del nombre (tu logo o título)
+   
     #nombredelid {
         font-weight: bold;
         text-align: center;
-        color: $color-primario; // Para que el título sea naranja
+        color: $color-primario; 
     }
 
-    // Si tenés un nav con links, se vería así:
+   
     nav {
         ul {
             display: flex;
