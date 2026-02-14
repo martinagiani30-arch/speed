@@ -1,0 +1,33 @@
+header {
+    background-color: $blanco; // Usamos la variable que ya creaste
+    padding: 15px;
+    border-bottom: 2px solid $negro-puro; // O "black" si no hiciste la variable
+
+    // Estilos para el ID del nombre (tu logo o título)
+    #nombredelid {
+        font-weight: bold;
+        text-align: center;
+        color: $color-primario; // Para que el título sea naranja
+    }
+
+    // Si tenés un nav con links, se vería así:
+    nav {
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 20px;
+
+            li a {
+                text-decoration: none;
+                color: $color-texto-oscuro;
+                font-weight: bold;
+                transition: color 0.3s ease;
+
+                &:hover {
+                    color: $color-primario;
+                }
+            }
+        }
+    }
+}

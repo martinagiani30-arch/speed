@@ -1,0 +1,33 @@
+.pie-pagina-contactos {
+    background-color: $color-fondo-footer;
+    padding: 60px 5%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e1e1e1;
+    font-family: $fuente-footer;
+
+    .columna-footer {
+        flex: 1;
+        padding: 0 15px;
+
+        h3 {
+            color: #333;
+            font-size: 1rem;
+            font-weight: bold;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+        }
+
+        a {
+            display: block;
+            color: $color-texto-oscuro;
+            text-decoration: none;
+            font-weight: bold;
+            margin-bottom: 15px;
+            &:hover {
+                color: $color-primario;
+                opacity: 0.7;
+            }
+        }
+    }
+}

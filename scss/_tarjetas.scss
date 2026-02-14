@@ -1,0 +1,26 @@
+.tarjeta {
+    @include efecto-elevacion;
+    background-color: $blanco;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+@each $piloto, $color in $colores-equipos {
+  .border-#{$piloto} {
+    border: 3px solid $color;
+  }
+}
+
+
+@for $i from 1 through 3 {
+  .img-col-#{$i} {
+    width: 100% / $i;
+  }
+}
+
+
+.tarjeta {
+    @include efecto-elevacion;
+    background-color: $blanco;
+    // ...
+}
