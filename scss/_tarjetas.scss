@@ -30,8 +30,8 @@
     @include efecto-elevacion;
 
    
-    @include dispositivo($celular) {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+ @media (max-width: 576px) {
+    width: 100%;
+    margin-bottom: 20px;
+}
 }
